@@ -1,0 +1,18 @@
+#images,
+#table {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#images {
+    top: 0;
+    padding-left: 5%;
+}
+
+#table {
+    bottom: 0;
+}

@@ -1,0 +1,16 @@
+<mat-card class="data-card">
+    <img mat-card-image src="{{imageData.thumbnailUrl}}" alt="{{imageData.thumbnailUrl}}" style="height: 200px;">
+    <mat-card-content>
+        <div class="center-align">
+            <h3 class="img-details">{{imageData.title}}</h3>
+            <h4 class="img-details">{{imageData.id}}</h4>
+            <a href="{{imageData.url}}" class="img-details">{{imageData.url}}</a>
+        </div>
+    </mat-card-content>
+    <mat-card-actions class="center-align">
+        <button mat-raised-button color="primary" *ngIf="!hideComapreBtn"
+            (click)="onImgBtnClick(imageData.id, 'COMPARE')">Compare</button>
+        <button mat-raised-button color="warn" *ngIf="hideComapreBtn"
+            (click)="onImgBtnClick(imageData.id, 'REMOVE')">Remove</button>
+    </mat-card-actions>
+</mat-card>

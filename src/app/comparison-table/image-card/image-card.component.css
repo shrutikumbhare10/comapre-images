@@ -1,0 +1,13 @@
+.data-card {
+    width: 20%;
+    display: inline-block;
+    margin: 10px;
+}
+
+h3 {
+    margin-top: 0px !important;
+}
+
+.center-align {
+    text-align: center;
+}

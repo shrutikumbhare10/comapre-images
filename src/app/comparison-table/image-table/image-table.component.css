@@ -1,0 +1,20 @@
+table {
+    width: 100%;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.no-data {
+    margin: 16px; font-weight: 400; padding-top: 5em;
+}
+
+.img {
+    width: 150px; height: 100px; margin-top: 2px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 12px;
+}
